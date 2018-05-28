@@ -1,0 +1,28 @@
+#header {
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+}
+
+#header p {
+  color: MediumAquamarine;
+  margin: 0 20px;
+}
+
+#header a {
+  color: black;
+  margin: 0 10px;
+}
+
+#header li {
+  display: inline;
+}
+
+#header nav {
+  justify-content: flex-end;
+}
+
+#header.vert-centered {
+  align-items: center;
+}
